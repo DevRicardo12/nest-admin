@@ -1,5 +1,5 @@
-```
 ## Create Dokerfile
+
 ```
 FROM node:16.14
 
@@ -12,6 +12,7 @@ RUN npm install
 # copiar todo
 COPY . .
 CMD npm run start:dev
+
 ```
 
 ## Create docker-compose.yml
