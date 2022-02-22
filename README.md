@@ -25,13 +25,13 @@ $ npm run start:prod
 
 FROM node:16.14
 
-#Directorio
+# Directorio
 WORKDIR /app
 
-#Copiar package dentro de /app
+# Copiar package dentro de /app
 COPY package.json .
 RUN npm install
-#copiar todo
+# copiar todo
 COPY . .
 CMD npm run start:dev
 
