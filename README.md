@@ -22,7 +22,7 @@ $ npm run start:prod
 ```
 
 ## Create Dokerfile
-
+```
 FROM node:16.14
 
 # Directorio
@@ -34,6 +34,7 @@ RUN npm install
 # copiar todo
 COPY . .
 CMD npm run start:dev
+```
 
 ## Create docker-compose.yml
 
